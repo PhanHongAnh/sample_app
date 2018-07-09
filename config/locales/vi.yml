@@ -1,0 +1,25 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+      content1: "Đây là trang chủ của"
+      content2: "ứng dụng mẫu."
+    about:
+      title: "Giới thiệu"
+      content1: "Quyển"
+      content2: "là một"
+      content3: "và"
+      content4: "để dạy phát triển web với"
+      content5: "Đây là ứng dụng mẫu cho hướng dẫn."
+      link1: "quyển sách"
+      link2: "một loạt screencast "
+    help:
+      title: "Trợ giúp"
+      content1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      content2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+      link1: "Phần trợ giúp Hướng dẫn Rails"
+      link2: "Sách hướng dẫn Ruby on Rails"
+    contact:
+      title: "Thông tin liên hệ"
+      content1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      link1: "trang thông tin liên hệ"
