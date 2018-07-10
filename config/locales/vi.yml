@@ -1,12 +1,18 @@
 vi:
+  home_title: "Trang chủ"
+  about_title: "Giới thiệu"
+  help_title: "Trợ giúp"
+  contact_title: "Thông tin liên hệ"
+  signup: "Đăng kí"
+  login: "Đăng nhập"
   base_title: "Hướng dẫn Ruby on Rails - Ví dụ mẫu"
+
   static_pages:
     home:
-      title: "Trang chủ"
+      content0: "Chào mừng đến với Sample App"
       content1: "Đây là trang chủ của"
       content2: "ứng dụng mẫu."
     about:
-      title: "Giới thiệu"
       content1: "Quyển"
       content2: "là một"
       content3: "và"
@@ -15,12 +21,14 @@ vi:
       link1: "quyển sách"
       link2: "một loạt screencast "
     help:
-      title: "Trợ giúp"
       content1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       content2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
       link1: "Phần trợ giúp Hướng dẫn Rails"
-      link2: "Sách hướng dẫn Ruby on Rails"
+      link2: "Hướng dẫn Ruby on Rails"
     contact:
-      title: "Thông tin liên hệ"
       content1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
       link1: "trang thông tin liên hệ"
+
+  users:
+    new:
+      content1: "Đây là trang đăng kí cho người sử dụng mới."
