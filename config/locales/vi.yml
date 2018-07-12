@@ -5,9 +5,15 @@ vi:
   contact_title: "Thông tin liên hệ"
   signup: "Đăng kí"
   login: "Đăng nhập"
+  logout: "Đăng xuất"
+  user: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
   base_title: "Hướng dẫn Ruby on Rails - Ví dụ mẫu"
   welcome: "Chào mừng đến với Ví dụ mẫu"
   error: "lỗi"
+  login_error: "Thư điện tử  / Mật khẩu không hợp lệ"
 
   name: "Tên"
   email: "Thư điện tử "
@@ -43,3 +49,7 @@ vi:
   shared:
     error_messages:
       content: "Biểu mẫu chứa"
+
+  sessions:
+    new:
+      content1: "Người dùng mới"

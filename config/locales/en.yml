@@ -36,9 +36,15 @@ en:
   contact_title: "Contact"
   signup: "Sign up"
   login: "Login"
+  logout: "Log out"
+  user: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome: "Welcome to the Sample App!"
   error: "error"
+  login_error: "Invalid email/password combination"
 
   name: "Name"
   email: "Email"
@@ -74,3 +80,7 @@ en:
   shared:
     error_messages:
       content: "The form contains"
+
+  sessions:
+    new:
+      content1: "New user?"
