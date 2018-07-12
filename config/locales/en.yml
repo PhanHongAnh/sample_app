@@ -84,3 +84,4 @@ en:
   sessions:
     new:
       content1: "New user?"
+      remember_me: "Remember me on this computer"
