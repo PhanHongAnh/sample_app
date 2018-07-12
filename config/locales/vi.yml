@@ -6,6 +6,13 @@ vi:
   signup: "Đăng kí"
   login: "Đăng nhập"
   base_title: "Hướng dẫn Ruby on Rails - Ví dụ mẫu"
+  welcome: "Chào mừng đến với Ví dụ mẫu"
+  error: "lỗi"
+
+  name: "Tên"
+  email: "Thư điện tử "
+  password: "Mật khẩu"
+  password_confirmation: "Xác nhận mật khẩu"
 
   static_pages:
     home:
@@ -31,4 +38,8 @@ vi:
 
   users:
     new:
-      content1: "Đây là trang đăng kí cho người sử dụng mới."
+      content1: "Tạo tài khoản"
+
+  shared:
+    error_messages:
+      content: "Biểu mẫu chứa"

@@ -37,6 +37,13 @@ en:
   signup: "Sign up"
   login: "Login"
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome: "Welcome to the Sample App!"
+  error: "error"
+
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  password_confirmation: "Confirmation"
 
   static_pages:
     home:
@@ -62,4 +69,8 @@ en:
 
   users:
     new:
-      content1: "This will be a signup page for new users."
+      content1: "Create my account"
+
+  shared:
+    error_messages:
+      content: "The form contains"

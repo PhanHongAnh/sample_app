@@ -3,3 +3,4 @@ maximum:
   email_length: 255
 minimum:
   password_length: 6
+gravatar_size: 80
