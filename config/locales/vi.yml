@@ -53,3 +53,4 @@ vi:
   sessions:
     new:
       content1: "Người dùng mới"
+      remember_me: "Ghi nhớ tôi trên thiết bị này"
