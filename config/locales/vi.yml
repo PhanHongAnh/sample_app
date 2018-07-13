@@ -11,9 +11,8 @@ vi:
   profile: "Hồ sơ"
   settings: "Cài đặt"
   base_title: "Hướng dẫn Ruby on Rails - Ví dụ mẫu"
-  welcome: "Chào mừng đến với Ví dụ mẫu"
   error: "lỗi"
-  login_error: "Thư điện tử  / Mật khẩu không hợp lệ"
+  delete: "Xóa"
 
   name: "Tên"
   email: "Thư điện tử "
@@ -43,8 +42,24 @@ vi:
       link1: "trang thông tin liên hệ"
 
   users:
+    flash0: "Không tìm thấy người dùng"
+    flash5: "Yêu cầu đăng nhập trước"
+    user:
+      content1: "Bạn chắc chứ?"
     new:
-      content1: "Tạo tài khoản"
+      button_text: "Tạo tài khoản"
+    create:
+      flash1: "Chào mừng đến với Ví dụ mẫu"
+    update:
+      flash2: "Đã cập nhật hồ sơ"
+    destroy:
+      flash3: "Đã xóa người dùng"
+      flash4: "Không thể xóa người dùng"
+    edit:
+      title: "Cập nhật hồ sơ"
+      button_text: "Lưu thay đổi"
+    index:
+      title: "Tất cả người dùng"
 
   shared:
     error_messages:
@@ -54,3 +69,5 @@ vi:
     new:
       content1: "Người dùng mới"
       remember_me: "Ghi nhớ tôi trên thiết bị này"
+    create:
+      flash: "Thư điện tử  / Mật khẩu không hợp lệ"
