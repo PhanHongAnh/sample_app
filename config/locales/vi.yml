@@ -50,6 +50,7 @@ vi:
       button_text: "Tạo tài khoản"
     create:
       flash1: "Chào mừng đến với Ví dụ mẫu"
+      flash7: "Kiểm tra lại email để kích hoạt tài khoản của bạn."
     update:
       flash2: "Đã cập nhật hồ sơ"
     destroy:
@@ -71,3 +72,17 @@ vi:
       remember_me: "Ghi nhớ tôi trên thiết bị này"
     create:
       flash: "Thư điện tử  / Mật khẩu không hợp lệ"
+      flash1: "Tài khoản chưa được kích hoạt. Kiểm tra email để lấy link kích hoạt"
+
+  account_activations:
+    edit:
+      flash1: "Đã kích hoạt tài khoản!"
+      flash2: "Thiếu link kích hoạt"
+
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      content: "Click vào link dưới đây để kích hoạt tài khoản của bạn:"
+      link: "Kích hoạt"
+    password_reset:
+      content: "tìm tôi tại"

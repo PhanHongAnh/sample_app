@@ -1,0 +1,13 @@
+<h1><%= t "base_title" %></h1>
+
+<p>
+  <%= t "hi" %>
+  <%= @user.name %>,
+</p>
+
+<p>
+  <%= t "static_pages.home.content0" %>!
+  <%= t ".content" %>
+</p>
+
+<%= link_to t("link"), edit_account_activation_url(@user.activation_token, email: @user.email) %>
