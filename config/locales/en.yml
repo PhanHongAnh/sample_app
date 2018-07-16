@@ -13,6 +13,7 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   error: "error"
   delete: "Delete"
+  hi: "Hi"
 
   name: "Name"
   email: "Email"
@@ -50,6 +51,7 @@ en:
       button_text: "Create my account"
     create:
       flash1: "Welcome to the Sample App!"
+      flash7: "Please check your email to activate your account."
     update:
       flash2: "Profile updated"
     destroy:
@@ -71,3 +73,17 @@ en:
       remember_me: "Remember me on this computer"
     create:
       flash: "Invalid email/password combination"
+      flash1: "Account not activated. Check your email for the activation link."
+
+  account_activations:
+    edit:
+      flash1: "Account activated!"
+      flash2: "Invalid activation link"
+
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      content: "Click on the link below to activate your account:"
+      link: "Activate"
+    password_reset:
+      content: "find me in"
