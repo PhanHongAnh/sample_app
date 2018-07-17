@@ -6,3 +6,4 @@ minimum:
 gravatar_size: 80
 paginate:
   per_page: 10
+password_reset_expired_time: 2

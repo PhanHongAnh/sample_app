@@ -10,9 +10,7 @@ Rails.application.routes.draw do
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
     resources :users
-  end
-  resources :account_activations, only: :edit
-  if Rails.env.development?
-    mount LetterOpenerWeb::Engine, at: "/letter_opener"
+    resources :account_activations, only: :edit
+    resources :password_resets, except: [:index, :destroy]
   end
 end
