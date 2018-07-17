@@ -18,6 +18,8 @@ vi:
   email: "Thư điện tử "
   password: "Mật khẩu"
   password_confirmation: "Xác nhận mật khẩu"
+  forgot_password: "Quên mật khẩu"
+  reset_password: "Đặt lại mật khẩu"
 
   static_pages:
     home:
@@ -79,10 +81,27 @@ vi:
       flash1: "Đã kích hoạt tài khoản!"
       flash2: "Thiếu link kích hoạt"
 
+  password_resets:
+    new:
+      button_text: "Gửi"
+    create:
+      flash1: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+      flash2: "Không tìm thấy địa chỉ email"
+    edit:
+      button_text: "Cập nhật mật khẩu"
+    update:
+      error: "không được để trống"
+      flash3: "Mật khẩu đã được đặt lại"
+    check_expiration:
+      flash4: "Đặt lại mật khẩu đã hết hạn"
+
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
       content: "Click vào link dưới đây để kích hoạt tài khoản của bạn:"
       link: "Kích hoạt"
     password_reset:
-      content: "tìm tôi tại"
+      content1: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      content2: "Liên kết này sẽ hết hạn sau hai giờ."
+      content3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
+mật khẩu của bạn sẽ vẫn như cũ."

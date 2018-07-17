@@ -4,4 +4,5 @@
 <%= t "static_pages.home.content0" %>!
 <%= t ".content" %>
 
-<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
+<%= edit_account_activation_url(id: @user.activation_token,
+  email: @user.email) %>

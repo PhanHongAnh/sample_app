@@ -19,6 +19,8 @@ en:
   email: "Email"
   password: "Password"
   password_confirmation: "Confirmation"
+  forgot_password: "Forgot password"
+  reset_password: "Reset password"
 
   static_pages:
     home:
@@ -80,10 +82,27 @@ en:
       flash1: "Account activated!"
       flash2: "Invalid activation link"
 
+  password_resets:
+    new:
+      button_text: "Submit"
+    create:
+      flash1: "Email sent with password reset instructions"
+      flash2: "Email address not found"
+    edit:
+      button_text: "Update password"
+    update:
+      error: "can't be empty"
+      flash3: "Password has been reset"
+    check_expiration:
+      flash4: "Password reset has expired."
+
   user_mailer:
     account_activation:
       subject: "Account activation"
       content: "Click on the link below to activate your account:"
       link: "Activate"
     password_reset:
-      content: "find me in"
+      content1: "To reset your password click the link below:"
+      content2: "This link will expire in two hours."
+      content3: "If you did not request your password to be reset, please ignore this email and
+your password will stay as it is."
