@@ -1,9 +1,13 @@
 maximum:
   username_length: 50
   email_length: 255
+  content: 140
 minimum:
   password_length: 6
 gravatar_size: 80
 paginate:
   per_page: 10
 password_reset_expired_time: 2
+picture:
+  size: 5
+  resize: 400
