@@ -14,6 +14,10 @@ en:
   error: "error"
   delete: "Delete"
   hi: "Hi"
+  micropost: "micropost"
+  post: "Post"
+  ago: "ago"
+  picture_error: "should be less than 5MB"
 
   name: "Name"
   email: "Email"
@@ -68,6 +72,9 @@ en:
   shared:
     error_messages:
       content: "The form contains"
+    micropost_form:
+      content: "Compose new micropost..."
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
 
   sessions:
     new:
@@ -106,3 +113,9 @@ en:
       content2: "This link will expire in two hours."
       content3: "If you did not request your password to be reset, please ignore this email and
 your password will stay as it is."
+
+  microposts:
+    create:
+      flash1: "Micropost created!"
+    destroy:
+      flash2: "Micropost deleted"

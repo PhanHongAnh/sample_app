@@ -13,6 +13,10 @@ vi:
   base_title: "Hướng dẫn Ruby on Rails - Ví dụ mẫu"
   error: "lỗi"
   delete: "Xóa"
+  micropost: "micropost"
+  post: "Đăng"
+  ago: "trước"
+  picture_error: "phải nhỏ hơn 5MB"
 
   name: "Tên"
   email: "Thư điện tử "
@@ -67,6 +71,9 @@ vi:
   shared:
     error_messages:
       content: "Biểu mẫu chứa"
+    micropost_form:
+      content: "Soạn micropost mới ..."
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
 
   sessions:
     new:
@@ -105,3 +112,9 @@ vi:
       content2: "Liên kết này sẽ hết hạn sau hai giờ."
       content3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
 mật khẩu của bạn sẽ vẫn như cũ."
+
+  microposts:
+    create:
+      flash1: "Micropost đã được tạo!"
+    destroy:
+      flash2: "Đã xóa micropost"

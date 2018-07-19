@@ -5,13 +5,14 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.where(activated: true).paginate(page: params[:page],
-      per_page: Settings.paginate.per_page).order("created_at desc")
+    @users = User.order_user.paginate page: params[:page],
+      per_page: Settings.paginate.per_page
   end
 
   def show
-    return if @user&.activated
-    redirect_to root_path
+    return redirect_to root_path unless @user&.activated
+    @microposts = @user.microposts.order_micropost.paginate page: params[:page],
+      per_page: Settings.paginate.per_page
   end
 
   def new
@@ -56,16 +57,16 @@ class UsersController < ApplicationController
       :password_confirmation
   end
 
-  def find_user
-    @user = User.find_by id: params[:id]
-    flash[:danger] = t "users.flash0" if @user.nil?
-  end
-
   def logged_in_user
     return false if logged_in?
     store_location
     flash[:danger] = t "users.flash5"
     redirect_to login_url
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    flash[:danger] = t "users.flash0" if @user.nil?
   end
 
   def correct_user
